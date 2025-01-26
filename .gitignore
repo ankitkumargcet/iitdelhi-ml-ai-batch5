@@ -1,0 +1,55 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python-specific
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+.env
+.venv/
+venv/
+ENV/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+pyvenv.cfg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Jupyter Notebook metadata
+*.nbconvert.ipynb
+
+# Logs and temporary files
+*.log
+*.sqlite3
+*.pid
+*.out
+*.err
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+*.orig
+*.rej
+*.class
+*.sass-cache/
+*.cache
+*.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.mo
+*.pot
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
