@@ -1,7 +1,6 @@
 # iitdelhi-ml-ai-batch5
 This repository will be used to maintain learning content
 
-
 ## Python and Jupyter Notebook Installation Guide
 ## 1. Install Latest Python
 1. **Download and Install Python**:
@@ -15,11 +14,11 @@ This repository will be used to maintain learning content
    python3 --version
    ```
    ```bash
-   which python3
+   pip3 --version
    ```
 
 ## 2. Install Jupyter Notebook or JupyterLab
-1. **Install `pip`**:
+1. **Install `pip` - only if does not exist [Optional]**:
    ```bash
    python3 -m ensurepip --upgrade
    ```
@@ -51,3 +50,6 @@ This repository will be used to maintain learning content
    ```bash
    jupyter-lab
    ```
+
+### **Note**
+To run both Jupyter Notebook and JupyterLab simultaneously, you need to open separate terminal windows for each. Launch one in one terminal and the other in another to avoid conflicts.
